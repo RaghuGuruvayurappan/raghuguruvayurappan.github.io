@@ -18,6 +18,9 @@ h1 em { font-family:Georgia,serif; font-weight:400; }
 .button { display:inline-flex; gap:26px; align-items:center; padding:14px 19px; border:1px solid var(--ink); color:var(--ink); font-size:.9rem; text-decoration:none; transition:background .2s,color .2s; }
 .button:hover { color:var(--paper); background:var(--ink); }
 .button span { font-size:1.15rem; }
+.book-actions { display:flex; flex-wrap:wrap; align-items:center; gap:22px; }
+.text-link { color:var(--ink); font-family:"DM Mono",monospace; font-size:.82rem; text-decoration:none; }
+.text-link:hover { text-decoration:underline; text-underline-offset:4px; }
 .work { padding:112px 0; }
 .section-heading { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:42px; }
 h2 { margin:0; font-size:clamp(2.25rem,4vw,4rem); font-weight:500; line-height:1; letter-spacing:-.055em; }
