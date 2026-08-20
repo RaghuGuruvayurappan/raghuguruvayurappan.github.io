@@ -46,6 +46,10 @@ footer a { color:inherit; text-decoration:none; }
 .book-hero { display:grid; grid-template-columns:minmax(250px, .75fr) 1.6fr; gap:clamp(50px,10vw,150px); align-items:center; min-height:680px; padding:100px 7%; border-bottom:1px solid var(--line); }
 .book-cover { width:100%; max-width:440px; aspect-ratio:2/3; object-fit:cover; object-position:right; box-shadow:12px 15px 0 #17391d; }
 .book-intro h1 { font-size:clamp(3.4rem,6vw,6.1rem); }
+.book-feature { padding:96px 0 24px; }
+.book-feature-header { max-width:760px; margin-bottom:28px; }
+.book-feature-header h2 { margin-top:0; }
+.book-feature-image { width:100%; display:block; border:1px solid rgba(23,57,29,.14); border-radius:18px; box-shadow:0 20px 60px rgba(23,57,29,.08); }
 .book-copy { display:grid; grid-template-columns:1fr 2fr; gap:40px; padding:110px 0; }
 .book-copy h2 { max-width:660px; margin-bottom:26px; }
 .book-copy div > p,.book-copy li { max-width:590px; color:#555651; font-size:1.05rem; line-height:1.62; }
